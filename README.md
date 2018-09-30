@@ -1,8 +1,8 @@
-A boilerplate to quickly start a project using Next.js and TypeScript. It basically includes the following stack:
+A boilerplate to quickly start a new project using Next.js and TypeScript. It basically includes the following stack:
 
 - [Next.JS](https://nextjs.org/)
 - TypeScript
-- Prettier (with stylelint & tslint prettier extension)
+- Prettier (with stylelint & tslint prettier extension and an opionated rule configuration)
 
 To simplify CSS usage it uses [@zeit/next-css](https://github.com/zeit/next-plugins/tree/master/packages/next-css) with CSS Modules enabled. To compile TypeScript files with babel it uses [@zeit/next-typescript](https://github.com/zeit/next-plugins/tree/master/packages/next-typescript)
 
