@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #666;
+}
+
+.layout {
+  padding: 24px;
+}
+
+@media (min-width: 900px) {
+  .layout {
+    position: absolute;
+    width: 50vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 600px;
+    padding: 90px;
+    border-radius: 5px;
+    border: #eee 1px solid;
+  }
+}
+
+.layout h1 {
+  margin: 0;
+  color: #333;
+}
