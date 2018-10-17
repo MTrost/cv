@@ -6,9 +6,12 @@ export default class Header extends PureComponent {
     return (
       <div className={styles.header}>
         <div className={'container'}>
-          <h1>Hi there!</h1>
-          <p>My name is Damian Frizzi and I'm a Frontend Engineer from Zurich, Switzerland.</p>
-          <p>This website is a static exported Next.JS application which can be transformed to a pdf using Pupeteer.</p>
+          <div className={styles.hexagon} />
+          <div className={styles.intro}>
+            <h1>Hi there!</h1>
+            <p>My name is Damian Frizzi and I'm a Frontend Engineer from Zurich, Switzerland.</p>
+            <p>This website is a static exported Next.JS application which can be transformed to a pdf using Pupeteer.</p>
+          </div>
         </div>
       </div>
     )
