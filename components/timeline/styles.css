@@ -14,7 +14,7 @@
 
 .timeLineItemContent {
   padding: var(--default-padding);
-  margin: var(--default-padding) 0 var(--default-padding) calc(var(--default-padding) * 3);
+  margin: 0 0 var(--default-padding) calc(var(--default-padding) * 3);
   background: #fff;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px 0px;
   border-radius: 5px;

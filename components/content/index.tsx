@@ -9,8 +9,10 @@ export default class Content extends PureComponent {
     return (
       <main>
         <Experience />
+        <div className="breakBefore" />
         <Education />
         <Skills />
+        <div className="breakBefore" />
         <Personal />
       </main>
     )

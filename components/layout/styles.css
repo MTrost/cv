@@ -34,3 +34,7 @@ h2 {
   padding: 0 24px;
   max-width: 1200px;
 }
+
+:global(.breakBefore) {
+  page-break-before: always;
+}

@@ -1,6 +1,11 @@
 .skillsWrapper {
   display: grid;
-  grid-template-columns: calc(50% - 12px) calc(50% - 12px);
+  grid-template-columns: 100%;
   grid-gap: var(--default-padding);
-  margin-top: var(--default-padding);
+}
+
+@media (min-width: 768px), print {
+  .skillsWrapper {
+    grid-template-columns: calc(50% - 12px) calc(50% - 12px);
+  }
 }
