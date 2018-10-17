@@ -18,20 +18,31 @@
 .hexagon {
   float: left;
   position: relative;
-  margin-right: 24px;
+  margin-right: 36px;
   width: calc(var(--default-padding) * 7);
   height: calc(var(--default-padding) * 8);
-  background: #fff;
+  background: var(--primary-color);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
-.hexagon::after {
+.hexagon::before {
   content: '';
   position: absolute;
   top: calc(var(--default-padding) / 4);
   right: calc(var(--default-padding) / 4);
   bottom: calc(var(--default-padding) / 4);
   left: calc(var(--default-padding) / 4);
+  background: #fff;
+  clip-path: inherit;
+}
+
+.hexagon::after {
+  content: '';
+  position: absolute;
+  top: calc(var(--default-padding) / 2);
+  right: calc(var(--default-padding) / 2);
+  bottom: calc(var(--default-padding) / 2);
+  left: calc(var(--default-padding) / 2);
   background-color: #ddd;
   background-image: url(/static/images/damian.jpg);
   background-repeat: no-repeat;

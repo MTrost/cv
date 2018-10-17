@@ -12,7 +12,7 @@ export default class Experience extends PureComponent {
       dateFrom: 'May 2018',
       dateTo: 'Present',
       description:
-        'Partial launch of a highly modernized, universal (isomorphic) Frontend using React, GraphQL, Apollo and ASP.NET Web API with the goal to improve the user and developer experience by decoupling the entire Frontend from the existing monolithic application. Coaching, training and mentoring of Engieers using the new stack within the department.'
+        'Partial launch of a highly modernized, universal (isomorphic) Frontend using React, GraphQL, Apollo and ASP.NET Web API with the goal to improve the user and developer experience by decoupling the entire Frontend from the existing monolithic application. Coaching, training and mentoring of Engineers using the new stack within the department.'
     },
     {
       title: 'Teamleader Frontend Engineering & User Experience',
