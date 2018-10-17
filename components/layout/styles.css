@@ -13,6 +13,7 @@ body {
   html,
   body {
     font-size: 10px;
+    -webkit-print-color-adjust: exact;
   }
 }
 
@@ -30,6 +31,6 @@ h2 {
 
 :global(.container) {
   margin: 0 auto;
-  padding: 0 var(--default-padding);
+  padding: 0 24px;
   max-width: 1200px;
 }

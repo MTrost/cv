@@ -3,6 +3,15 @@
   --primary-hover-color: #862318;
   --header-height: 60px;
   --default-padding: 24px;
-  --default-padding-print: 12px;
   --sticky-pos: 0px;
+}
+
+@media print {
+  :root {
+    --default-padding: 12px;
+  }
+}
+
+@page {
+  margin: 0;
 }

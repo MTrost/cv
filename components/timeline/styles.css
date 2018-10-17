@@ -1,6 +1,5 @@
 .timelineItem {
   position: relative;
-  display: flex;
   break-inside: avoid;
 }
 
@@ -15,7 +14,7 @@
 
 .timeLineItemContent {
   padding: var(--default-padding);
-  margin: var(--default-padding) 0 var(--default-padding) 60px;
+  margin: var(--default-padding) 0 var(--default-padding) calc(var(--default-padding) * 3);
   background: #fff;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px 0px;
   border-radius: 5px;
@@ -23,7 +22,7 @@
 
 @media print {
   .timeLineItemContent {
-    margin: var(--default-padding-print) 0 var(--default-padding-print) 60px;
+    margin-left: calc(var(--default-padding) * 4);
   }
 }
 
@@ -33,9 +32,10 @@
 }
 
 .timeLineItemDeco {
-  min-width: 18px;
-  width: 18px;
-  position: relative;
+  position: absolute;
+  left: 0;
+  top: var(--default-padding);
+  bottom: 0;
 }
 
 .timelineItem:last-child .timeLineItemDeco::after {
@@ -45,7 +45,7 @@
 .timeLineItemDeco::before {
   content: '';
   position: absolute;
-  top: 56px;
+  top: 0;
   left: 2px;
   width: 12px;
   height: 12px;
@@ -58,10 +58,10 @@
 .timeLineItemDeco::after {
   content: '';
   position: absolute;
-  top: 76px;
+  top: 18px;
   left: 11px;
   transform: translateX(-50%);
-  bottom: -60px;
+  bottom: calc(var(--default-padding) * -2);
   width: 2px;
   background: var(--primary-color);
 }

@@ -641,6 +641,10 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
+"@types/classnames@^2.2.6":
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/@types/classnames/-/classnames-2.2.6.tgz#dbe8a666156d556ed018e15a4c65f08937c3f628"
+
 "@types/next@^7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/@types/next/-/next-7.0.0.tgz#7dd3d1196a711251fc2331661fe6ccc173929c54"
