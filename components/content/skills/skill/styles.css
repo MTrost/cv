@@ -1,0 +1,32 @@
+.expertiseWrapper {
+  height: 6px;
+  margin: 12px 0;
+  background: #ddd;
+}
+
+.expertise {
+  height: 100%;
+  background: var(--primary-color);
+}
+
+.skillWrapper {
+  padding: var(--default-padding);
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px 0px;
+  border-radius: 5px;
+}
+
+.skillWrapper p {
+  display: flex;
+  align-items: baseline;
+}
+
+.skillWrapper small {
+  margin-right: var(--default-padding);
+  font-style: italic;
+  width: 30%;
+}
+
+.skillWrapper span {
+  width: 70%;
+}

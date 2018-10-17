@@ -1,0 +1,6 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: calc(50% - 12px) calc(50% - 12px);
+  grid-gap: var(--default-padding);
+  margin-top: var(--default-padding);
+}

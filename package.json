@@ -6,12 +6,15 @@
     "dev": "next",
     "dev:debug": "yarn dev --inspect=localhost:9227",
     "build": "next build",
-    "start": "next start"
+    "export": "npm run build && next export",
+    "start": "next start",
+    "generatePdf": "node toPdf.js http://localhost:3000 output.pdf"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "next": "^7.0.1",
+    "puppeteer": "^1.9.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
   },
