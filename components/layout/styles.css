@@ -43,6 +43,10 @@ ul img {
   margin-right: 6px;
 }
 
+li {
+  padding: 3px 0;
+}
+
 a {
   color: var(--primary-color);
   text-decoration: none;

@@ -27,12 +27,19 @@ export default class Header extends PureComponent {
 
               <ul>
                 <li>
+                  <img width={16} height={16} src="/static/images/email.svg" alt="Email Icon" />
+                  &nbsp;
                   <a href="mailto:damianfrizzi@gmail.com">damianfrizzi@gmail.com</a>
                 </li>
                 <li>
+                  <img width={16} height={16} src="/static/images/phone.svg" alt="Phone Icon" />
+                  &nbsp;
                   <a href="tel:+41 79 739§ 03 27">+41 79 739 03 27</a>
                 </li>
-                <li>Gerbiweg 20, 8910 Affoltern am Albis</li>
+                <li>
+                  <img width={16} height={16} src="/static/images/pin.svg" alt="Pin Icon" />
+                  &nbsp; Gerbiweg 20, 8910 Affoltern am Albis
+                </li>
               </ul>
             </div>
           </div>
