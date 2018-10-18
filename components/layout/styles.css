@@ -34,10 +34,42 @@ h2 {
   font-weight: 400;
 }
 
+ul {
+  list-style: none;
+}
+
+ul img {
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  border-bottom: transparent 2px solid;
+  transition: all 0.25s ease;
+  max-width: 85%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+a:hover {
+  color: var(--primary-hover-color);
+  border-color: var(--primary-hover-color);
+}
+
 :global(.container) {
   margin: 0 auto;
   padding: 0 24px;
   max-width: 1200px;
+}
+
+@media (min-width: 768px), print {
+  :global(.container) {
+    padding: 0 48px;
+  }
 }
 
 :global(.breakBefore) {

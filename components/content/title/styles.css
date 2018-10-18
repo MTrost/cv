@@ -9,7 +9,11 @@
 }
 
 :global(.sticky) {
-  padding: var(--default-padding) 0;
+  padding: 24px 0;
+}
+
+:global(.sticky) a {
+  border-bottom: 0;
 }
 
 @media screen {

@@ -4,6 +4,8 @@
   --header-height: 60px;
   --default-padding: 24px;
   --sticky-pos: 0px;
+  --image-width: 168px;
+  --image-height: 192px;
 }
 
 @media print {

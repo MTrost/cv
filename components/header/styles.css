@@ -1,52 +1,78 @@
 .header {
   padding: 24px 0;
-  background-color: #10181e;
-  /* background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23313e47' fill-opacity='0.37'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); */
+  background: #fff;
 }
 
-.header::after {
-  content: '';
-  clear: both;
-  display: table;
+.header h1 {
+  margin-top: -12px;
+}
+
+.header h2 {
+  margin: -6px 0 12px;
+  font-weight: 300;
+}
+
+.header :global(.container) {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-column-gap: 60px;
+  grid-row-gap: 24px;
+  justify-items: center;
+  align-items: center;
+}
+
+@media (min-width: 768px), print {
+  .header :global(.container) {
+    grid-template-columns: var(--image-width) auto;
+    justify-items: initial;
+  }
 }
 
 .intro {
-  color: #fff;
-  padding: calc(var(--default-padding) + 6px) 0;
+  width: 100%;
+}
+
+@media (min-width: 768px), print {
+  .subHeader {
+    display: flex;
+  }
+
+  .subHeader ul {
+    flex: 1;
+  }
 }
 
 .hexagon {
-  float: left;
   position: relative;
-  margin-right: 36px;
-  width: calc(var(--default-padding) * 7);
-  height: calc(var(--default-padding) * 8);
+  width: var(--image-width);
+  height: var(--image-height);
   background: var(--primary-color);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
-.hexagon::before {
-  content: '';
-  position: absolute;
-  top: calc(var(--default-padding) / 4);
-  right: calc(var(--default-padding) / 4);
-  bottom: calc(var(--default-padding) / 4);
-  left: calc(var(--default-padding) / 4);
-  background: #fff;
-  clip-path: inherit;
-}
-
+.hexagon::before,
 .hexagon::after {
   content: '';
   position: absolute;
-  top: calc(var(--default-padding) / 2);
-  right: calc(var(--default-padding) / 2);
-  bottom: calc(var(--default-padding) / 2);
-  left: calc(var(--default-padding) / 2);
+  clip-path: inherit;
+}
+
+.hexagon::before {
+  top: calc(24px / 4);
+  right: calc(24px / 4);
+  bottom: calc(24px / 4);
+  left: calc(24px / 4);
+  background: #fff;
+}
+
+.hexagon::after {
+  top: calc(24px / 2);
+  right: calc(24px / 2);
+  bottom: calc(24px / 2);
+  left: calc(24px / 2);
   background-color: #ddd;
   background-image: url(/static/images/damian.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 10%;
-  clip-path: inherit;
 }
