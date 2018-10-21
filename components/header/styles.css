@@ -12,6 +12,10 @@
   font-weight: 300;
 }
 
+.header p {
+  margin-bottom: 18px;
+}
+
 .header :global(.container) {
   display: grid;
   grid-template-columns: 100%;

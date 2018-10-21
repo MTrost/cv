@@ -14,7 +14,6 @@ export default class Layout extends PureComponent {
     return (
       <div className={styles.layout}>
         <Header />
-        {/* <Navigation /> */}
         <Content />
       </div>
     )

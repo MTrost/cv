@@ -12,7 +12,7 @@ export default class Experience extends PureComponent {
       dateFrom: 'May 2018',
       dateTo: 'Present',
       description:
-        'Partial launch of a highly modernized, universal (isomorphic) Frontend using React, GraphQL, Apollo and ASP.NET Web API with the goal to improve the user and developer experience by decoupling the entire Frontend from the existing monolithic application. Coaching, training and mentoring of Engineers using the new stack within the department.'
+        'Responsible for the conception, implementation and partial launch of a highly modernized, universal (isomorphic) Frontend using React, GraphQL, Apollo and ASP.NET Web API with the goal to improve the user and developer experience by decoupling the entire Frontend from the existing monolithic application. Coaching, training and mentoring of Engineers using the new stack within the department.'
     },
     {
       title: 'Teamleader Frontend Engineering & User Experience',
@@ -20,7 +20,7 @@ export default class Experience extends PureComponent {
       dateFrom: 'June 2016',
       dateTo: 'May 2018',
       description:
-        'Administration, coordination and leadership of a team consisting of four Frontend Engineers, three Interaction Designers and one UX-Researcher. Initiatio and supervosopm of the move to cross functional teams. Development of mobile applications (iOS & Android) using React Native. Recruiting of new Frontend Engineers and Interaction Designers. Conception and implementation of a revamped Frontend architecture with the goal to decouple the entire Frontend from the existing monolith application.'
+        'Administration, coordination and leadership of a team consisting of four Frontend Engineers, three Interaction Designers and one UX-Researcher. Initiated the move from a dedicated UI team to cross functional product teams. Development of mobile applications (iOS & Android) using React Native. Recruiting of new Frontend Engineers and Interaction Designers. Conception and implementation of a revamped Frontend architecture with the goal to decouple the entire Frontend from the existing monolith application.'
     },
     {
       title: 'Frontend Engineer',
@@ -28,7 +28,7 @@ export default class Experience extends PureComponent {
       dateFrom: 'October 2014',
       dateTo: 'June 2016',
       description:
-        'Responsibility for maintaining and further improving the Frontend of the onlineshops of Digitec Galaxus AG (digitec.ch & galaxus.ch) in close collaboration with the Backend Engineers, Business Development and the CTO as Product Owner. Restructuring from the given adaptive design to a fully responsive website. Assistance in hiring new Frontend Engineers and Interaction Designers.'
+        'Responsible for maintaining and further improving the Frontend of the onlineshops of Digitec Galaxus AG (digitec.ch & galaxus.ch) in close collaboration with the Backend Engineers, Business Development and the CTO as Product Owner. Restructuring from the given adaptive design to a fully responsive website. Assistance in hiring new Frontend Engineers and Interaction Designers.'
     },
     {
       title: 'Junior Frontend Engineer',
