@@ -1,5 +1,6 @@
 # Todo
 
+- Add tests
 - Serverless online version
 - Refactor toPdf.js to TypeScript
 - Optimize static assets (remove unncessary fonts, minimize svgs etc.)

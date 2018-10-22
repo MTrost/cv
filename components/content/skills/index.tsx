@@ -9,13 +9,25 @@ export default class Skills extends PureComponent {
   private skills: ISkill[] = [
     {
       category: 'JavaScript',
-      expertise: 90,
-      keywordsProficient: ['ES2016', 'ES2015', 'Node.JS', 'TypeScript', 'React', 'Next.js', 'AngularJS (v1)', 'RequireJS', 'Backbone.js'],
-      keywordsBasic: ['React Native', 'Vue.JS', 'Electron', 'Ionic', 'NativeScript', 'Phonegap/Cordova']
+      expertise: 95,
+      keywordsProficient: [
+        'ES2016',
+        'ES2015',
+        'Node.JS',
+        'TypeScript',
+        'React',
+        'Next.js',
+        'Apollo Client',
+        'Apollo Server',
+        'RequireJS',
+        'Backbone.js',
+        'jQuery'
+      ],
+      keywordsBasic: ['React Native', 'Vue.JS', 'AngularJS', 'Electron', 'Ionic', 'NativeScript', 'Phonegap/Cordova', 'Phaser']
     },
     {
       category: 'HTML & CSS',
-      expertise: 90,
+      expertise: 95,
       keywordsProficient: ['HTML5', 'CSS', 'CSS Modules', 'Sass'],
       keywordsBasic: ['Styled Components', 'Less', 'Stylus']
     },
@@ -31,8 +43,8 @@ export default class Skills extends PureComponent {
       keywordsBasic: ['Browser Stack Live', 'Selenium']
     },
     {
-      category: 'Automation, Build & Packaging Tools',
-      expertise: 60,
+      category: 'Automation, Building & Packaging',
+      expertise: 80,
       keywordsProficient: ['Webpack', 'Grunt', 'Gulp', 'Bower', 'Yarn', 'npm']
     },
     {
