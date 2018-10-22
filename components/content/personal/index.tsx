@@ -9,7 +9,7 @@ export default class Personal extends PureComponent {
   private items: IPersonalItem[] = [
     {
       title: 'Motorsports',
-      description: `I started kart racing in the age of 11 and could achieve several victories (two time Swiss Champion, 4 times Vice Swiss Champion) since then. Although I stopped participating in championships two years ago I still enjoy driving around the european circuits with my personal kart.`,
+      description: `I started kart racing at the age of 11 and could achieve several victories (two times Swiss Champion, 4 times Vice Swiss Champion) since then. Although I stopped participating in championships two years ago I still enjoy driving around the european circuits with my personal kart.`,
       alt: 'Racing flag',
       image: '/static/images/flag.svg'
     },

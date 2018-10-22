@@ -10,8 +10,8 @@ export default class Skills extends PureComponent {
     {
       category: 'JavaScript',
       expertise: 90,
-      keywordsProficient: ['ES2016', 'ES2015', 'Node.JS', 'TypeScript', 'React', 'Next.js', 'AngularJS (v1)', 'RequireJS'],
-      keywordsBasic: ['React Native', 'Vue.JS', 'NativeScript', 'Phonegap/Cordova']
+      keywordsProficient: ['ES2016', 'ES2015', 'Node.JS', 'TypeScript', 'React', 'Next.js', 'AngularJS (v1)', 'RequireJS', 'Backbone.js'],
+      keywordsBasic: ['React Native', 'Vue.JS', 'Electron', 'Ionic', 'NativeScript', 'Phonegap/Cordova']
     },
     {
       category: 'HTML & CSS',
