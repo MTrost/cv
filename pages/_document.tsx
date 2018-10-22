@@ -1,7 +1,8 @@
 import Document, { Head, Main, NextScript } from 'next/document'
+import { ReactNode } from 'react'
 
 export default class CustomDocument extends Document {
-  public render(): JSX.Element {
+  public render(): ReactNode {
     return (
       <html>
         <Head>
