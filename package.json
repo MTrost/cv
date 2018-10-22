@@ -1,7 +1,7 @@
 {
-  "name": "next-typescript-boilerplate",
+  "name": "cv-builder",
   "version": "1.0.0",
-  "description": "A boilerplate to quickly start a project using Next.js and TypeScript.",
+  "description": "A Next.js based project to generate my personal CV.",
   "scripts": {
     "dev": "next",
     "dev:debug": "yarn dev --inspect=localhost:9227",
@@ -10,7 +10,7 @@
     "start": "next start",
     "generatePdf": "node toPdf.js http://localhost:3000 cv.pdf"
   },
-  "author": "",
+  "author": "Damian Frizzi",
   "license": "ISC",
   "dependencies": {
     "next": "^7.0.1",
