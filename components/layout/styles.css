@@ -81,13 +81,20 @@ a:hover {
 }
 
 .stripe {
-  width: 100%;
-  height: 300px;
-  position: absolute;
-  overflow: hidden;
-  transform: skewY(2deg);
-  transform-origin: 100%;
-  background: #fff;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .stripe {
+    display: initial;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    overflow: hidden;
+    transform: skewY(2deg);
+    transform-origin: 100%;
+    background: #fff;
+  }
 }
 
 @media print {
