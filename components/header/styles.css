@@ -1,6 +1,6 @@
 .header {
+  position: relative;
   padding: 24px 0;
-  background: #fff;
 }
 
 .header h1 {

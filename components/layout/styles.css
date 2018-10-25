@@ -79,3 +79,19 @@ a:hover {
 :global(.breakBefore) {
   page-break-before: always;
 }
+
+.stripe {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  overflow: hidden;
+  transform: skewY(2deg);
+  transform-origin: 100%;
+  background: #fff;
+}
+
+@media print {
+  .stripe {
+    height: 260px;
+  }
+}

@@ -13,6 +13,7 @@ export default class Layout extends PureComponent {
   public render(): ReactNode {
     return (
       <div className={styles.layout}>
+        <div className={styles.stripe} />
         <Header />
         <Content />
       </div>
