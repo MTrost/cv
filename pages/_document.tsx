@@ -4,7 +4,7 @@ import { ReactNode } from 'react'
 export default class CustomDocument extends Document {
   public render(): ReactNode {
     return (
-      <html>
+      <html lang="en">
         <Head>
           <meta content="Website built with Next.js which can be exported as a pdf. " name="description" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
