@@ -39,10 +39,10 @@ export default class Experience extends PureComponent {
         "Besides working on the onlineshops digitec.ch and galaxus.ch I accomplished about 15 projects (mostly small and medium-sized enterprises) for the partner's design agency. Confrontation with many different frameworks and technologies (Backbone.js, Require-JS, AngularJS, Git, SVN etc.). Atlassian software (Jira & Confluence) and Scrum methodolgy was used for all projects."
     },
     {
-      title: 'Web Developer Trainee',
+      title: 'Web Developer',
       location: Locations.Glencore,
-      dateFrom: 'December 2010',
-      dateTo: 'June 2010',
+      dateFrom: 'June 2010',
+      dateTo: 'December 2010',
       description:
         'Development of interactive floorplans to make it possible for the HR to assign seats to employess, maing it easer to locate them. The implementation was done using PHP and MySQL in the backend to fetch data through a RESTful Lotus Notes webservice and JavaScript, HTML and CSS in the Frontend to create an interactive experience. The project was structured to be easily scaled for different offices of the company around the world.'
     }
