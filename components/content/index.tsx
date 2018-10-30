@@ -1,4 +1,5 @@
 import { PureComponent, ReactNode } from 'react'
+import PrintBreakBefore from '../print/breakbefore'
 import Education from './education'
 import Experience from './experience'
 import Personal from './personal'
@@ -9,10 +10,10 @@ export default class Content extends PureComponent {
     return (
       <main>
         <Experience />
-        <div className="breakBefore" />
+        <PrintBreakBefore />
         <Education />
         <Skills />
-        <div className="breakBefore" />
+        <PrintBreakBefore />
         <Personal />
       </main>
     )

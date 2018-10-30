@@ -1,6 +1,6 @@
 import { PureComponent, ReactNode } from 'react'
 import { Anchors } from '../../enums'
-import Intersection from '../intersection'
+import Section from '../section'
 import Skill from './skill'
 import styles from './styles.css'
 import { ISkill } from './types'
@@ -65,13 +65,13 @@ export default class Skills extends PureComponent {
 
   public render(): ReactNode {
     return (
-      <Intersection title={Anchors.Skills}>
+      <Section title={Anchors.Skills}>
         <div className={styles.skillsWrapper}>
           {this.skills.map((skill: ISkill, i: number) => (
             <Skill key={i} skill={skill} />
           ))}
         </div>
-      </Intersection>
+      </Section>
     )
   }
 }

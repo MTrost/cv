@@ -1,6 +1,6 @@
 import { PureComponent, ReactNode } from 'react'
 import { Anchors } from '../../enums'
-import Intersection from '../intersection'
+import Section from '../section'
 import PersonalItem from './item'
 import styles from './styles.css'
 import { IPersonalItem } from './types'
@@ -29,13 +29,13 @@ export default class Personal extends PureComponent {
 
   public render(): ReactNode {
     return (
-      <Intersection title={Anchors.Personal}>
+      <Section title={Anchors.Personal}>
         <div className={styles.wrapper}>
           {this.items.map((item: IPersonalItem, i: number) => (
             <PersonalItem key={i} item={item} />
           ))}
         </div>
-      </Intersection>
+      </Section>
     )
   }
 }

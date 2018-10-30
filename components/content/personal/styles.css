@@ -4,8 +4,8 @@
   grid-gap: var(--default-padding);
 }
 
-@media (min-width: 768px), print {
+@media (min-width: 940px), print {
   .wrapper {
-    grid-template-columns: calc(50% - 12px) calc(50% - 12px);
+    grid-template-columns: 1fr 1fr;
   }
 }

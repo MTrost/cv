@@ -2,7 +2,7 @@ import { ITimeLineItem } from 'components/timeline/types'
 import { PureComponent, ReactNode } from 'react'
 import { Anchors, Locations } from '../../enums'
 import Timeline from '../../timeline'
-import Intersection from '../intersection'
+import Section from '../section'
 
 export default class Education extends PureComponent {
   private items: ITimeLineItem[] = [
@@ -28,9 +28,9 @@ export default class Education extends PureComponent {
 
   public render(): ReactNode {
     return (
-      <Intersection title={Anchors.Education}>
+      <Section title={Anchors.Education}>
         <Timeline items={this.items} />
-      </Intersection>
+      </Section>
     )
   }
 }

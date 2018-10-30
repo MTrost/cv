@@ -11,7 +11,6 @@
 html,
 body {
   font-size: 16px;
-  background: #f6f7f8;
 }
 
 @media print {
@@ -70,35 +69,41 @@ a:hover {
   max-width: 1200px;
 }
 
-@media (min-width: 768px), print {
+@media (min-width: 940px), print {
   :global(.container) {
     padding: 0 48px;
   }
 }
 
-:global(.breakBefore) {
-  page-break-before: always;
+.layout {
+  background: #f6f7f8;
 }
 
 .stripe {
   display: none;
 }
 
-@media (min-width: 768px), print {
+@media (min-width: 940px), print {
   .stripe {
-    display: initial;
+    display: block;
     width: 100%;
-    height: 300px;
-    position: absolute;
+    height: 330px;
     overflow: hidden;
     transform: skewY(2deg);
     transform-origin: 100%;
     background: #fff;
   }
+
+  .stripeBottom {
+    margin-top: 24px;
+    transform-origin: -100%;
+    height: 150px;
+  }
 }
 
 @media print {
   .stripe {
-    height: 260px;
+    height: 240px;
+    margin-bottom: -24px;
   }
 }

@@ -25,7 +25,14 @@
   align-items: center;
 }
 
-@media (min-width: 768px), print {
+@media (min-width: 940px), print {
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
   .header :global(.container) {
     grid-template-columns: var(--image-width) auto;
     justify-items: initial;
@@ -36,7 +43,7 @@
   width: 100%;
 }
 
-@media (min-width: 768px), print {
+@media (min-width: 940px), print {
   .subHeader {
     display: flex;
   }
@@ -62,18 +69,18 @@
 }
 
 .hexagon::before {
-  top: calc(24px / 4);
-  right: calc(24px / 4);
-  bottom: calc(24px / 4);
-  left: calc(24px / 4);
+  top: 6px;
+  right: 6px;
+  bottom: 6px;
+  left: 6px;
   background: #fff;
 }
 
 .hexagon::after {
-  top: calc(24px / 2);
-  right: calc(24px / 2);
-  bottom: calc(24px / 2);
-  left: calc(24px / 2);
+  top: 12px;
+  right: 12px;
+  bottom: 12px;
+  left: 12px;
   background-color: #ddd;
   background-image: url(/static/images/damian.jpg);
   background-repeat: no-repeat;

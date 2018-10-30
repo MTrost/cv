@@ -1,9 +1,7 @@
 :root {
   --primary-color: #e74c3c;
   --primary-hover-color: #862318;
-  --header-height: 60px;
   --default-padding: 24px;
-  --sticky-pos: 0px;
   --image-width: 168px;
   --image-height: 192px;
 }
@@ -11,6 +9,8 @@
 @media print {
   :root {
     --default-padding: 12px;
+    --image-width: 148px;
+    --image-height: 172px;
   }
 }
 

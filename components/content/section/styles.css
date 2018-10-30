@@ -1,0 +1,18 @@
+.section {
+  position: relative;
+  padding-bottom: 24px;
+}
+
+.title {
+  padding: 24px 0;
+}
+
+.title a {
+  border-bottom: 0;
+}
+
+@media screen {
+  .title:hover .anchor svg {
+    visibility: visible;
+  }
+}

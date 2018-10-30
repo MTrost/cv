@@ -11,8 +11,3 @@ export enum Anchors {
   Skills = 'Skills',
   Personal = 'Personal'
 }
-
-export enum Heading {
-  H1 = '1',
-  H2 = '2'
-}
