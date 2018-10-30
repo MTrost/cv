@@ -65,13 +65,15 @@ a:hover {
 
 :global(.container) {
   margin: 0 auto;
-  padding: 0 24px;
+  padding-right: 24px;
+  padding-left: 24px;
   max-width: 1200px;
 }
 
 @media (min-width: 940px), print {
   :global(.container) {
-    padding: 0 48px;
+    padding-right: 48px;
+    padding-left: 48px;
   }
 }
 
