@@ -10,20 +10,8 @@ export default class Skills extends PureComponent {
     {
       category: 'JavaScript',
       expertise: 95,
-      keywordsProficient: [
-        'ES2016',
-        'ES2015',
-        'Node.JS',
-        'TypeScript',
-        'React',
-        'Next.js',
-        'Apollo Client',
-        'Apollo Server',
-        'RequireJS',
-        'Backbone.js',
-        'jQuery'
-      ],
-      keywordsBasic: ['React Native', 'Vue.JS', 'AngularJS', 'Electron', 'Ionic', 'NativeScript', 'Phonegap/Cordova', 'Phaser']
+      keywordsProficient: ['ES2016', 'ES2015', 'Node.JS', 'TypeScript', 'React', 'Redux', 'Next.js', 'RequireJS'],
+      keywordsBasic: ['React Native', 'Vue.JS', 'AngularJS', 'Electron', 'WebGL (mainly Three.js)', 'Ionic', 'NativeScript', 'Phonegap/Cordova', 'Phaser']
     },
     {
       category: 'HTML & CSS',
@@ -48,6 +36,12 @@ export default class Skills extends PureComponent {
       keywordsProficient: ['Webpack', 'Grunt', 'Gulp', 'Bower', 'Yarn', 'npm']
     },
     {
+      category: 'GraphQL',
+      expertise: 70,
+      keywordsProficient: ['Apollo Server', 'Apollo Client'],
+      keywordsBasic: ['Prisma']
+    },
+    {
       category: 'CI, CD & DevOps',
       expertise: 50,
       keywordsProficient: ['VSTS', 'TeamCity', 'Docker'],
@@ -58,7 +52,7 @@ export default class Skills extends PureComponent {
       expertise: 30
     },
     {
-      category: 'PHP',
+      category: 'PHP & MySQL',
       expertise: 30
     }
   ]
