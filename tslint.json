@@ -3,6 +3,7 @@
   "rules": {
     "member-access": true,
     "no-any": true,
+    "no-console": false,
     "object-literal-sort-keys": false,
     "strict-type-predicates": true,
     "prefer-const": false,

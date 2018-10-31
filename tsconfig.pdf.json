@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "module": "commonjs"
+  },
+  "include": ["toPdf2.ts"]
+}

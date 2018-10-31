@@ -8,25 +8,28 @@
     "build": "next build",
     "export": "npm run build && next export",
     "start": "next start",
-    "generatePdf": "node toPdf.js http://localhost:3000 .next/cv.pdf"
+    "generatePdf": "ts-node --project tsconfig.pdf.json toPdf.ts http://localhost:3000 .next/cv.pdf"
   },
   "author": "Damian Frizzi",
   "license": "ISC",
   "dependencies": {
+    "classnames": "^2.2.6",
     "next": "^7.0.1",
-    "puppeteer": "^1.9.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.6",
     "@types/next": "^7.0.0",
+    "@types/puppeteer": "^1.9.1",
     "@types/react": "^16.4.14",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-typescript": "^1.1.1",
     "fork-ts-checker-webpack-plugin": "^0.4.9",
     "prettier": "^1.14.3",
+    "puppeteer": "^1.9.0",
     "stylelint-config-prettier": "^4.0.0",
+    "ts-node": "^7.0.1",
     "tslint": "^5.11.0",
     "tslint-config-prettier": "^1.15.0",
     "typescript": "^3.1.1"
