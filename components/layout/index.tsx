@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import { PureComponent, ReactNode } from 'react'
 import Content from '../content'
 import Header from '../header'
@@ -9,6 +10,9 @@ export default class Layout extends PureComponent {
   public render(): ReactNode {
     return (
       <div className={styles.layout}>
+        <Head>
+          <title>Damian Frizzi - Frontend Engineer</title>
+        </Head>
         <Stripe position={Stripes.Top} />
         <Header />
         <Content />
