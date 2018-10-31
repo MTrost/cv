@@ -19,7 +19,7 @@ export default class Education extends PureComponent {
       dateTo: '2015'
     },
     {
-      title: 'Swiss A-level exam ("Matura"), modern langauges',
+      title: 'Swiss A-level exam ("Matura"), modern languages',
       location: Locations.Akad,
       dateFrom: '2009',
       dateTo: '2012'

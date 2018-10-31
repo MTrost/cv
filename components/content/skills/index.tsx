@@ -22,7 +22,8 @@ export default class Skills extends PureComponent {
     {
       category: 'Version Control',
       expertise: 80,
-      keywordsProficient: ['Git', 'SVN', 'Github', 'Bitbucket']
+      keywordsProficient: ['Git', 'SVN', 'Github', 'Bitbucket'],
+      keywordsBasic: ['Hg']
     },
     {
       category: 'Testing',
