@@ -23,7 +23,6 @@
 
 .skillWrapper small {
   margin-right: var(--default-padding);
-  font-style: italic;
   width: 30%;
 }
 
