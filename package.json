@@ -6,7 +6,7 @@
     "dev": "next",
     "dev:debug": "yarn dev --inspect=localhost:9227",
     "build": "next build",
-    "export": "npm run build && next export -o docs",
+    "export": "rm -rf docs && npm run build && next export -o docs && node ghPages",
     "start": "next start",
     "generatePdf": "ts-node --project tsconfig.pdf.json toPdf.ts http://localhost:3000 .next/cv.pdf"
   },
@@ -28,6 +28,7 @@
     "fork-ts-checker-webpack-plugin": "^0.4.9",
     "prettier": "^1.14.3",
     "puppeteer": "^1.9.0",
+    "replace-in-file": "^3.4.2",
     "stylelint-config-prettier": "^4.0.0",
     "ts-node": "^7.0.1",
     "tslint": "^5.11.0",
