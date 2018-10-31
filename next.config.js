@@ -1,7 +1,6 @@
 const withCSS = require('@zeit/next-css')
 const withTypescript = require('@zeit/next-typescript')
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin')
-const WatchIgnorePlugin = require('webpack').WatchIgnorePlugin
 
 module.exports = withTypescript(
   withCSS({
