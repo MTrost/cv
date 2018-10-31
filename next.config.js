@@ -1,7 +1,7 @@
 const withCSS = require('@zeit/next-css')
 const withTypescript = require('@zeit/next-typescript')
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin')
-const reponame = 'cv-generator'
+const reponame = 'cv'
 
 module.exports = withTypescript(
   withCSS({
