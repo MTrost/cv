@@ -8,6 +8,18 @@
   color: #fff;
 }
 
+@page {
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Inter UI';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/static/Inter-UI.var.woff2') format('woff2-variations'), url('/static/Inter-UI-Regular.woff2') format('woff2'),
+    url('/static/Inter-UI-Regular.woff') format('woff');
+}
+
 html,
 body {
   font-size: 16px;
@@ -79,33 +91,4 @@ a:hover {
 
 .layout {
   background: #f6f7f8;
-}
-
-.stripe {
-  display: none;
-}
-
-@media (min-width: 940px), print {
-  .stripe {
-    display: block;
-    width: 100%;
-    height: 330px;
-    overflow: hidden;
-    transform: skewY(2deg);
-    transform-origin: 100%;
-    background: #fff;
-  }
-
-  .stripeBottom {
-    margin-top: 24px;
-    transform-origin: -100%;
-    height: 150px;
-  }
-}
-
-@media print {
-  .stripe {
-    height: 240px;
-    margin-bottom: -24px;
-  }
 }

@@ -1,8 +1,7 @@
-import classNames from 'classnames'
 import { PureComponent, ReactNode } from 'react'
 import Content from '../content'
 import Header from '../header'
-import './fonts.css'
+import Stripe, { Stripes } from '../stripe'
 import './patterns.css'
 import styles from './styles.css'
 
@@ -10,10 +9,10 @@ export default class Layout extends PureComponent {
   public render(): ReactNode {
     return (
       <div className={styles.layout}>
-        <div className={styles.stripe} />
+        <Stripe position={Stripes.Top} />
         <Header />
         <Content />
-        <div className={classNames(styles.stripe, styles.stripeBottom)} />
+        <Stripe position={Stripes.Bottom} />
       </div>
     )
   }

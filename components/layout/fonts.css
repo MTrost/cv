@@ -1,7 +1,0 @@
-@font-face {
-  font-family: 'Inter UI';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/static/Inter-UI.var.woff2') format('woff2-variations'), url('/static/Inter-UI-Regular.woff2') format('woff2'),
-    url('/static/Inter-UI-Regular.woff') format('woff');
-}
