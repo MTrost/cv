@@ -14,7 +14,7 @@ export default class Header extends PureComponent {
             <p>
               This CV was created using Next.js, TypeScript and Pupeteer.
               <br />
-              Checkout the source code at <a href="https://github.com/damianfrizzi/cv-generator">github.com/damianfrizzi/cv-generator</a>
+              Checkout the source code at <a href="https://github.com/damianfrizzi/cv">github.com/damianfrizzi/cv</a>
             </p>
 
             <div className={styles.subHeader}>
