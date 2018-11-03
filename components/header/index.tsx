@@ -1,7 +1,29 @@
 import { PureComponent, ReactNode } from 'react'
 import styles from './styles.css'
+import { IIcon } from './types'
 
 export default class Header extends PureComponent {
+  private githubIcon: IIcon = {
+    path: '/static/images/github.svg',
+    alt: 'Github Icon'
+  }
+  private twitterIcon: IIcon = {
+    path: '/static/images/twitter.svg',
+    alt: 'Twitter Icon'
+  }
+  private emailIcon: IIcon = {
+    path: '/static/images/email.svg',
+    alt: 'Email Icon'
+  }
+  private phoneIcon: IIcon = {
+    path: '/static/images/phone.svg',
+    alt: 'Phone Icon'
+  }
+  private pinIcon: IIcon = {
+    path: '/static/images/pin.svg',
+    alt: 'Pin Icon'
+  }
+
   public render(): ReactNode {
     return (
       <div className={styles.header}>
@@ -20,12 +42,12 @@ export default class Header extends PureComponent {
             <div className={styles.subHeader}>
               <ul>
                 <li>
-                  <img width={16} height={16} src="/static/images/github.svg" alt="Github Icon" />
+                  {this.getIcon(this.githubIcon)}
                   &nbsp;
                   <a href="https://github.com/damianfrizzi">github.com/damianfrizzi</a>
                 </li>
                 <li>
-                  <img width={16} height={16} src="/static/images/twitter.svg" alt="Twitter Icon" />
+                  {this.getIcon(this.twitterIcon)}
                   &nbsp;
                   <a href="https://twitter.com/damianfrizzi">twitter.com/damianfrizzi</a>
                 </li>
@@ -33,23 +55,31 @@ export default class Header extends PureComponent {
 
               <ul>
                 <li>
-                  <img width={16} height={16} src="/static/images/email.svg" alt="Email Icon" />
+                  {this.getIcon(this.emailIcon)}
                   &nbsp;
                   <a href="mailto:damianfrizzi@gmail.com">damianfrizzi@gmail.com</a>
                 </li>
                 <li>
-                  <img width={16} height={16} src="/static/images/phone.svg" alt="Phone Icon" />
+                  {this.getIcon(this.phoneIcon)}
                   &nbsp;
                   <a href="tel:+41 79 739§ 03 27">+41 79 739 03 27</a>
                 </li>
                 <li>
-                  <img width={16} height={16} src="/static/images/pin.svg" alt="Pin Icon" />
+                  {this.getIcon(this.pinIcon)}
                   &nbsp; Gerbiweg 20, 8910 Affoltern am Albis
                 </li>
               </ul>
             </div>
           </div>
         </div>
+      </div>
+    )
+  }
+
+  private getIcon = (icon: IIcon): ReactNode => {
+    return (
+      <div className={styles.imageWrapper}>
+        <img width={16} height={16} src={icon.path} alt={icon.alt} />
       </div>
     )
   }

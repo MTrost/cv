@@ -25,6 +25,15 @@
   align-items: center;
 }
 
+.header .imageWrapper {
+  display: inline-flex;
+  background: var(--primary-color);
+  border-radius: 50%;
+  padding: 6px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
 @media print {
   .header img {
     width: 12px;
