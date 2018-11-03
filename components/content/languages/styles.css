@@ -1,0 +1,11 @@
+.languagesWrapper {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: var(--default-padding);
+}
+
+@media (min-width: 940px), print {
+  .languagesWrapper {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
