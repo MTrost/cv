@@ -32,7 +32,7 @@ export class Languages extends PureComponent {
           {this.items.map((language: ILanguage, i: number) => (
             <Card key={i}>
               <h2>{language.title}</h2>
-              <p>{language.proficiency}</p>
+              <small>{language.proficiency}</small>
             </Card>
           ))}
         </div>

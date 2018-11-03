@@ -50,6 +50,14 @@ h2 {
   font-weight: 400;
 }
 
+h2 {
+  line-height: 1.25;
+}
+
+p {
+  margin-top: 1rem;
+}
+
 ul {
   list-style: none;
 }

@@ -11,8 +11,9 @@ export default class PersonalItem extends PureComponent<IPersonalItemProps> {
       <Card>
         <div className={styles.item}>
           <img src={item.image} width={90} height={90} alt={item.alt} />
+
           <div>
-            <h3>{item.title}</h3>
+            <h2>{item.title}</h2>
             <p>{item.description}</p>
           </div>
         </div>

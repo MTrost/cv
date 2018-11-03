@@ -4,11 +4,7 @@
 }
 
 .title {
-  padding: 24px 0;
-}
-
-.title a {
-  border-bottom: 0;
+  padding: 3rem 0;
 }
 
 @media screen {

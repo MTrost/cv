@@ -9,25 +9,23 @@
     overflow: hidden;
     transform: skewY(2deg);
     background: #fff;
+    margin-bottom: -24px;
   }
 
   .stripeTop {
     transform-origin: 100%;
     height: 330px;
-    border-bottom: #eee 3px solid;
   }
 
   .stripeBottom {
     margin-top: 24px;
     transform-origin: -100%;
     height: 150px;
-    border-top: #eee 3px solid;
   }
 }
 
 @media print {
   .stripe {
     height: 240px;
-    margin-bottom: -24px;
   }
 }

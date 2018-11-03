@@ -3,10 +3,6 @@
   break-inside: avoid;
 }
 
-.timelineItem p {
-  margin-top: 1.5rem;
-}
-
 .timeLineItemContent {
   margin: 0 0 3rem 4.5rem;
 }
@@ -15,11 +11,6 @@
   .timeLineItemContent {
     margin-left: 6rem;
   }
-}
-
-.timeLineItemContent h2 {
-  line-height: 1;
-  margin-bottom: 3px;
 }
 
 .timeLineItemDeco {
@@ -31,6 +22,10 @@
 
 .timelineItem:last-child .timeLineItemDeco::after {
   content: none;
+}
+
+.timelineItem:last-child .timeLineItemContent {
+  margin-bottom: 0;
 }
 
 .timeLineItemDeco::before {
