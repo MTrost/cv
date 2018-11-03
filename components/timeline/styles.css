@@ -3,20 +3,12 @@
   break-inside: avoid;
 }
 
-.timelineItem small {
-  font-size: 1rem;
-}
-
 .timelineItem p {
   margin-top: 1.5rem;
 }
 
 .timeLineItemContent {
-  padding: var(--default-padding);
   margin: 0 0 3rem 4.5rem;
-  background: #fff;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px 0px;
-  border-radius: 5px;
 }
 
 @media print {

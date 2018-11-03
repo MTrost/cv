@@ -1,9 +1,9 @@
 import { PureComponent, ReactNode } from 'react'
+import Card from '../../card'
 import { Anchors, LanguageProficiencies } from '../../enums'
 import Section from '../section'
-import Language from './item'
-import { ILanguage } from './item/types'
 import styles from './styles.css'
+import { ILanguage } from './types'
 
 export class Languages extends PureComponent {
   private items: ILanguage[] = [
@@ -30,7 +30,10 @@ export class Languages extends PureComponent {
       <Section title={Anchors.Languages}>
         <div className={styles.languagesWrapper}>
           {this.items.map((language: ILanguage, i: number) => (
-            <Language key={i} language={language} />
+            <Card key={i}>
+              <h2>{language.title}</h2>
+              <p>{language.proficiency}</p>
+            </Card>
           ))}
         </div>
       </Section>

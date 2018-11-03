@@ -40,6 +40,11 @@ body {
   color: #24292e;
 }
 
+small {
+  font-size: 1rem;
+  color: hsl(214, 7%, 47%);
+}
+
 h1,
 h2 {
   font-weight: 400;
