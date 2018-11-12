@@ -246,31 +246,31 @@ function (_PureComponent) {
       location: _enums__WEBPACK_IMPORTED_MODULE_1__["Locations"].DigitecGalaxus,
       dateFrom: 'May 2018',
       dateTo: 'Present',
-      description: 'Responsible for the conception, implementation and partial launch of a highly modernized, universal (isomorphic) Frontend using React, GraphQL, Apollo and ASP.NET Web API with the goal to improve the user experience and increase development speed by decoupling the entire Frontend from the existing monolithic application. Coaching, training and mentoring of Engineers using the new stack within the department.'
+      description: 'Responsible for the conception, implementation and launch of a highly modernized, universal (isomorphic) Frontend using React, GraphQL, Apollo and ASP.NET Web API with the goal to improve the user experience and increase development speed by decoupling the entire Frontend from the existing monolithic application. Coaching, training and mentoring of Engineers using the new stack within the department.'
     }, {
       title: 'Teamleader Frontend Engineering & User Experience',
       location: _enums__WEBPACK_IMPORTED_MODULE_1__["Locations"].DigitecGalaxus,
       dateFrom: 'June 2016',
       dateTo: 'May 2018',
-      description: 'Administration, coordination and leadership of a team consisting of five Frontend Engineers, three Interaction Designers and one UX-Researcher. Initiated the move from a dedicated UI team to cross functional product teams. Development of mobile applications (iOS & Android) using React Native. Recruiting of new Frontend Engineers and Interaction Designers. Conception and implementation of a revamped Frontend architecture with the goal to decouple the entire Frontend from the existing monolith application.'
+      description: 'Administration, recruiting, coordination and leadership of a team consisting of five Frontend Engineers, three Interaction Designers and one UX-Researcher. Development of mobile applications (iOS & Android) using React Native. Conception and implementation of a revamped Frontend architecture with the goal to decouple the entire Frontend from the existing monolithic application.'
     }, {
       title: 'Frontend Engineer',
       location: _enums__WEBPACK_IMPORTED_MODULE_1__["Locations"].DigitecGalaxus,
       dateFrom: 'October 2014',
       dateTo: 'June 2016',
-      description: 'Responsible for maintaining and further improving the Frontend of the onlineshops of Digitec Galaxus AG (digitec.ch & galaxus.ch) in close collaboration with the Backend Engineers, Business Development and the CTO as Product Owner. I restructered the whole website from the given adaptive design to a fully responsive website to improve user experience and to stop the development of the second software project. Assistance in hiring new Frontend Engineers and Interaction Designers.'
+      description: 'Responsible for maintaining and improving the Frontend of the onlineshops of Digitec Galaxus AG (digitec.ch & galaxus.ch) in close collaboration with the Backend Engineers, Business Development and the CTO as Product Owner. Restructuring of the whole website from the given adaptive design to a fully responsive website to improve user experience and to stop the development of the second software project. Assistance in hiring new Frontend Engineers and Interaction Designers.'
     }, {
       title: 'Junior Frontend Engineer',
       location: _enums__WEBPACK_IMPORTED_MODULE_1__["Locations"].DigitecGalaxus,
       dateFrom: 'May 2013',
       dateTo: 'October 2014',
-      description: "Besides working on the onlineshops digitec.ch and galaxus.ch I accomplished about 15 projects (mostly small and medium-sized enterprises) for the partner's design agency. Confrontation with many different frameworks and technologies (Backbone.js, Require-JS, AngularJS, Git, SVN etc.). Atlassian software (Jira & Confluence) and Scrum methodolgy was used for all projects."
+      description: 'Successfully implemented about 15 projects (mostly small and medium-sized enterprises) for the company its design agency besides working on the onlineshops digitec.ch and galaxus.ch. Confrontation with different frameworks and technologies (Backbone.js, Require-JS, AngularJS, Git, SVN etc.). Atlassian software (Jira & Confluence) and Scrum methodolgy was used for all projects.'
     }, {
       title: 'Web Developer',
       location: _enums__WEBPACK_IMPORTED_MODULE_1__["Locations"].Glencore,
       dateFrom: 'June 2010',
       dateTo: 'December 2010',
-      description: 'Development of interactive floorplans to make it possible for the HR to assign seats to employess, maing it easer to locate them. The implementation was done using PHP and MySQL in the backend to fetch data through a RESTful Lotus Notes webservice and JavaScript, HTML and CSS in the Frontend to create an interactive experience. The project was structured to be easily scaled for different offices of the company around the world.'
+      description: 'Development of interactive floorplans to assign seats to employess. The implementation was done using PHP and MySQL in the backend to fetch data through a RESTful Lotus Notes webservice and JavaScript, HTML and CSS in the Frontend to create an interactive experience.'
     }]);
 
     return _this;
@@ -377,34 +377,40 @@ function (_PureComponent) {
           lineNumber: 13
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_education__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_print_breakbefore__WEBPACK_IMPORTED_MODULE_1__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 14
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_skills__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_education__WEBPACK_IMPORTED_MODULE_2__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 15
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_print_breakbefore__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_skills__WEBPACK_IMPORTED_MODULE_6__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_languages__WEBPACK_IMPORTED_MODULE_4__["Languages"], {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_print_breakbefore__WEBPACK_IMPORTED_MODULE_1__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_personal__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_languages__WEBPACK_IMPORTED_MODULE_4__["Languages"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 18
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_personal__WEBPACK_IMPORTED_MODULE_5__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
         },
         __self: this
       }));

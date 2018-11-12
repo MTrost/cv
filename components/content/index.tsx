@@ -11,6 +11,7 @@ export default class Content extends PureComponent {
     return (
       <main>
         <Experience />
+        <PrintBreakBefore />
         <Education />
         <Skills />
         <PrintBreakBefore />
