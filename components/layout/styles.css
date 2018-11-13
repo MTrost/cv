@@ -1,11 +1,11 @@
 * {
   padding: 0;
   margin: 0;
-}
 
-*::selection {
-  background: var(--primary-color);
-  color: #fff;
+  &::selection {
+    background: var(--primary-color);
+    color: #fff;
+  }
 }
 
 @page {
@@ -23,11 +23,8 @@
 html,
 body {
   font-size: 16px;
-}
 
-@media print {
-  html,
-  body {
+  @media print {
     font-size: 10px;
     -webkit-print-color-adjust: exact;
   }
@@ -76,11 +73,11 @@ a {
   text-overflow: ellipsis;
   display: inline-block;
   vertical-align: middle;
-}
 
-a:hover {
-  color: var(--primary-hover-color);
-  border-color: var(--primary-hover-color);
+  &:hover {
+    color: var(--primary-hover-color);
+    border-color: var(--primary-hover-color);
+  }
 }
 
 :global(.container) {
@@ -88,10 +85,8 @@ a:hover {
   padding-right: 24px;
   padding-left: 24px;
   max-width: 1200px;
-}
 
-@media (min-width: 940px), print {
-  :global(.container) {
+  @media (min-width: 940px), print {
     padding-right: 48px;
     padding-left: 48px;
   }

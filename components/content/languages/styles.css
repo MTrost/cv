@@ -2,10 +2,8 @@
   display: grid;
   grid-template-columns: 100%;
   grid-gap: var(--default-padding);
-}
 
-@media (min-width: 940px), print {
-  .languagesWrapper {
+  @media (min-width: 940px), print {
     grid-template-columns: repeat(4, 1fr);
   }
 }

@@ -9,16 +9,18 @@
   background: var(--primary-color);
 }
 
-.skillWrapper p {
-  display: flex;
-  align-items: baseline;
-}
+.skillWrapper {
+  p {
+    display: flex;
+    align-items: baseline;
+  }
 
-.skillWrapper small {
-  margin-right: var(--default-padding);
-  width: 30%;
-}
+  small {
+    margin-right: var(--default-padding);
+    width: 30%;
+  }
 
-.skillWrapper span {
-  width: 70%;
+  span {
+    width: 70%;
+  }
 }

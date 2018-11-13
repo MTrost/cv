@@ -1,7 +1,8 @@
 # Todo
 
 - Add tests
-- Optimize static assets (remove unncessary fonts, minimize svgs etc.)
+- Automate deployment to Github Pages
+- Optimize static assets (remove unncessary fonts, minimize svgs, caching headers etc.)
 
 # Nice to have
 

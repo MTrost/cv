@@ -6,9 +6,3 @@
 .title {
   padding: 3rem 0;
 }
-
-@media screen {
-  .title:hover .anchor svg {
-    visibility: visible;
-  }
-}
